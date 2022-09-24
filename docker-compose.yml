@@ -16,7 +16,7 @@ services:
       - DB_HOST=nututorials.cvuksv10jsab.us-east-1.rds.amazonaws.com
       - DB_PORT=5432
       - DATABASE=postgres
-      - VIRTUAL_HOST=ip-172-31-92-162.ec2.internal
+      - VIRTUAL_HOST=ec2-52-21-15-61.compute-1.amazonaws.com
       - VIRTUAL_PORT=8000
   nginx:
     build: ./nginx
